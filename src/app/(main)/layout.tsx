@@ -1,3 +1,4 @@
+import Footer from '@/layout/footer/footer';
 import Header from '@/layout/header/header';
 import type { Metadata } from 'next';
 import '../globals.css';
@@ -17,7 +18,7 @@ export default function Layout({
       <body className="min-h-full flex flex-col">
         <Header />
         <div className="w-full container">{children}</div>
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
